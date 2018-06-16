@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/note_layout"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/note_back"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/back"
+            android:layout_alignParentLeft="true"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="编辑备忘录"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_toRightOf="@id/note_back"
+            android:layout_toLeftOf="@id/note_save"
+            android:gravity="center"/>
+
+        <Button
+            android:id="@+id/note_save"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/save"
+            android:layout_alignParentRight="true"
+            />
+
+    </RelativeLayout>
+
+
+
+    <EditText
+        android:layout_below="@id/note_layout"
+        android:id="@+id/note_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="标题"
+        android:maxLength="50"
+        android:singleLine="true"
+        >
+
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/note_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/note_title"
+        android:gravity="start"
+        android:hint="内容"
+        android:inputType="textMultiLine" />
+
+
+
+
+</RelativeLayout>

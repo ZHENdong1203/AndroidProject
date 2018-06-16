@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginbackground"
+    tools:context="com.example.myapp.MainActivity">
+
+    <com.example.myapp.ClearEditText
+        android:id="@+id/username"
+        android:layout_marginTop="60dp"
+        android:layout_width="fill_parent"
+        android:background="#fdfdfd"
+        android:drawableLeft="@drawable/imageusername"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:singleLine="true"
+        android:drawableRight="@drawable/clear"
+        android:hint="输入用户名:学号"
+        android:layout_height="wrap_content" >
+
+    </com.example.myapp.ClearEditText>
+
+    <com.example.myapp.ClearEditText
+        android:id="@+id/password"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/imagepassword"
+        android:hint="输入密码"
+        android:singleLine="true"
+        android:inputType="textPassword"
+        android:drawableRight="@drawable/clear"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/username"
+        android:background="#fdfdfd" >
+    </com.example.myapp.ClearEditText>
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="25dp"
+        android:background="#1a34b4"
+        android:text="登录"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+    <Button
+        android:id="@+id/forget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/login"
+        android:layout_below="@id/login"
+        android:background="#00000000"
+        android:text="忘记密码?"
+        android:textColor="#FF0000"
+        android:textSize="16sp" />
+
+</RelativeLayout>

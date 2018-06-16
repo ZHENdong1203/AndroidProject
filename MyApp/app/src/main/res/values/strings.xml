@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">签到宝</string>
+
+    <string-array name="lorem_ipsum_short">
+        <item>
+            "密码学及其应用,教师:段桂华"
+        </item>
+        <item>
+            "人工智能,教师:陈白帆"
+        </item>
+        <item>
+            "计算机网络,教师:齐芳"
+        </item>
+        <item>
+            "编译原理,教师:雷向东"
+        </item>
+        <item>
+            "算法分析与程序设计,教师:郑瑾"
+        </item>
+        <item>
+            "文科物理学,教师:袁永波"
+        </item>
+        <item>
+            "操作系统原理,教师:宋虹"
+        </item>
+        <item>
+            "形势与政策,教师:徐建军"
+        </item>
+
+    </string-array>
+    <string-array name="lorem_ipsum_long">
+        <item>
+            "段桂华\n用户名:140051\n密码:197204"
+        </item>
+        <item>
+            "陈白帆\n用户名:205003\n密码:197905"
+        </item>
+        <item>
+            "齐芳\n用户名:203043\n密码:197802"
+        </item>
+        <item>
+            "雷向东\n用户名:132295\n密码:196404"
+        </item>
+        <item>
+            "郑瑾\n用户名:132266\n密码:197011"
+        </item>
+        <item>
+            "袁永波\n用户名:216019\n密码:198209"
+        </item>
+        <item>
+            "宋虹\n>用户名:132308\n>密码:197509"
+        </item>
+        <item>
+            "徐建军\n用户名:11003\n密码:195407"
+        </item>
+    </string-array>
+
+    <string-array name="array_names">
+        <item>"密码学"</item>
+        <item>"人工智能"</item>
+        <item>"计算机网络"</item>
+        <item>"编译原理"</item>
+        <item>"算法"</item>
+        <item>"文科物理"</item>
+        <item>"操作系统"</item>
+        <item>"形势与政策"</item>
+    </string-array>
+
+
+</resources>
